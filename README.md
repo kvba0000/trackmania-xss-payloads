@@ -22,3 +22,7 @@ One of the cons of this method is that you have limited set of characters you ca
 In result you get clean payload **almost** invisible to human eye. The main change you'll notice when using this payload on your name is that on stats page you'll see `">` on the beginning of your name. You can't prevent that without wasting another characters. In trackmania though, your payload is **completely invisible** on first look. Player has to hover over your name to see the suspicious payload in the place of link.  
 
 Due to need in saving characters you cannot use the GitHub Pages link I have for my repo as it will be too long. I recommend using shortener that will make it as **short as possible**.
+
+## 🎥 Preview
+https://github.com/kvbaxi/trackmania-xss-payloads/assets/47297843/2a2593d9-e276-443b-9a18-7e3edaeb854f
+
